@@ -59,4 +59,4 @@ De ahora en mas, las memorias (o alguna parte de ellas) serán graficadas de man
 
 ### Pequeño ejercicio
 
- Si la memoria tiene 8 celdas, cada una de 1 byte (contiene 8 bits): ¿Que tamaño deben tener las direcciones?
+ Si la memoria tiene 8 celdas, cada una de 1 byte (contiene 8 bits): ¿Que cantidad de bits deben tener las direcciones?
