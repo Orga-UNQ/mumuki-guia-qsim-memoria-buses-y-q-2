@@ -49,3 +49,9 @@ Descripción de las entradas:
 * a0 y a1 construyen la dirección de la celda 
 * L=1 cuando se quiere leer el contenido de la celda
 * E=1 cuando se quiere escribir un nuevo contenido en la celda 
+
+### Vista abstracta de la memoria
+
+De ahora en mas, las memorias (o alguna parte de ellas) serán graficadas de manera abstracta como se ejemplifica en el siguiente gráfico, que corresponde a la misma memoria analizada arriba.
+
+![Memoria abstracta](https://raw.githubusercontent.com/Orga-UNQ/mumuki-guia-qsim-memoria-buses-y-q-2/master/images/memoria-abstracta.png "memoria abstracta")
