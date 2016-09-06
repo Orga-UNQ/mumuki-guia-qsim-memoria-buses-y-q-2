@@ -1,0 +1,1 @@
+Copiar ```MOV R0,R1```
