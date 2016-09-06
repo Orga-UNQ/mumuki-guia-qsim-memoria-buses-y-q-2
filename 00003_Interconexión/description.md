@@ -19,7 +19,6 @@ El bus de sistema está formado por tres buses para cumplir los diferentes objet
 
 Cada bus tiene una determinada cantidad de líneas (*ancho del bus*) y cada línea transmite un bit a la vez. Entonces el ancho del bus determina cuántos bits se pueden transmitir en paralelo (o sea, al mismo tiempo). En el caso del bus de direcciones, el ancho determina el **espacio direccionable**, y en el caso del bus de datos determina el **tamaño de palabra**.
 
-
 ### Para pensar
 
 Suponer que se tiene un bus de direcciones de 4 bits y un bus de datos de 8 bits 
