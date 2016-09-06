@@ -15,7 +15,7 @@ El bus de sistema está formado por tres buses para cumplir los diferentes objet
 * Bus de datos
 * Bus de control
 
-![]()
+![VN con bus del sistema](https://raw.githubusercontent.com/Orga-UNQ/mumuki-guia-qsim-memoria-buses-y-q-2/master/images/vn-con-buses.png "Von Neumann")
 
 ### Para pensar
 
