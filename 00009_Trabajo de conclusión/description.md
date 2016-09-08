@@ -1,7 +1,9 @@
 Supongamos el siguiente *mapa* de una parte de la memoria:
 
 ![Conclusión](https://raw.githubusercontent.com/Orga-UNQ/mumuki-guia-qsim-memoria-buses-y-q-2/master/images/memoria-conclusion.png 'Mapa de memoria')
+
 y además supongamos que:
+
 * R5 = 0x0001
 * PC = 0x9999
 
