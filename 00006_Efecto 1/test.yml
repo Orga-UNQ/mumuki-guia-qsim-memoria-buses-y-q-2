@@ -1,5 +1,3 @@
-examples:
-- name: 'El resultado es correcto'
-  postconditions:
-    equal:
-     PC: '0001'
+equal: 'R3=0x02E2'
+ignore_whitespace: true
+ignore_case: true
