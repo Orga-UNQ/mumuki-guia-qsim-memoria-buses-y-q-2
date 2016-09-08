@@ -12,4 +12,4 @@ Y suponga que en la memoria:
 * la celda ```2001``` tiene el valor **FF00**
 * la celda ```200B``` tiene el valor **0050**
  
-> ¿Cuál es el efecto de ejecutar la instrucción ```ADD R0,0x2000```?
+> ¿Cuál es el efecto de ejecutar la instrucción ```ADD R0,[0x2000]```?
