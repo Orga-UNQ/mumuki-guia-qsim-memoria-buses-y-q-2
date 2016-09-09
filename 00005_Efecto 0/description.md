@@ -1,10 +1,10 @@
 Suponga el siguiente estado inicial de los registros:
 
-| R0 | 000F | 00AB | R5 |
+| R0 | 000F | 00AB | R4|
 |----|------|------|----|
-| R1 | 0013 | 000A | R6 | 
-| R2 | 0085 | 0009 | R7 |
-| R3 | 00E2 | 2001 | R8 |
+| R1 | 0013 | 000A | R5 | 
+| R2 | 0085 | 0009 | R6 |
+| R3 | 00E2 | 2001 | R7 |
 
 Y suponga que en la memoria:
 
