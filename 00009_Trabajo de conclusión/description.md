@@ -7,9 +7,9 @@ y además supongamos que:
 * R5 = 0x0001
 * PC = 0x9999
 
-Completar el siguiente cuadro que describe el contenido de los buses en cada operación de lectura o escritura a Memoria Principal al ejecutar el programa anterior.
+Completar el siguiente cuadro que describe el contenido de los buses en cada operación de lectura o escritura a Memoria Principal al ejecutar el programa anterior (La primer línea se pone como ejemplo)
 
-Nota: en el bus de control se debe indicar L=1 cuando es una lectura o E=1 cuando es una escritura. Considerar la primer línea como ejemplo
+Nota: en el bus de control se debe indicar L=1 cuando es una lectura o E=1 cuando es una escritura. 
 
 
 
