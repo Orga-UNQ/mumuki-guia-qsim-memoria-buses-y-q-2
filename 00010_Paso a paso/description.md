@@ -27,9 +27,11 @@ Por ejemplo, veamos un ejemplo de cuando los operandos son de modo **directo**. 
 En este ejemplo, se tienen los siguientes accesos:
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+.tg .tg-j2zy{background-color:#FCFBE3;vertical-align:top}
+.tg .tg-rmb8{background-color:#C2FFD6;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
 </style>
 <table class="tg">
@@ -50,10 +52,43 @@ En este ejemplo, se tienen los siguientes accesos:
   </tr>
   <tr>
     <td class="tg-yw4l">Búsqueda de Operandos</td>
-    <td class="tg-yw4l"> </td>
+    <td class="tg-yw4l">Lectura </td>
     <td class="tg-yw4l">3030 </td>
+  </tr>
+</table>
+
+Veamos ahora otro ejemplo: ```ADD [0x3030],R1``` ¿Que diferencia encontramos? El operando destino está en memoria! En que cambian los accesos?
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Etapa del ciclo <br></th>
+    <th class="tg-yw4l">¿Lectura/Escritura?</th>
+    <th class="tg-yw4l">Dirección</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Búsqueda de instrucción</td>
+    <td class="tg-yw4l">Lectura</td>
+    <td class="tg-yw4l">BBBB</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Búsqueda de instrucción</td>
+    <td class="tg-yw4l">Lectura</td>
+    <td class="tg-yw4l">BBBC</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Búsqueda de Operandos</td>
+    <td class="tg-yw4l">Lectura </td>
+    <td class="tg-yw4l">3030 </td>
+  </tr> <tr>
+    <td class="tg-rmb8">Almacenamiento de Operandos</td>
+    <td class="tg-rmb8">Escritura </td>
+    <td class="tg-rmb8">3030 </td>
   </tr>
 </table>
 
 
 
+#### A practicar
+
+Suponga que la instrucción ```MOV [0x3456], 0x5555``` está ensamblada a partir de la celda 6789.
+¿Que celda se accede en la etapa de **Almacenamiento de operandos**?
