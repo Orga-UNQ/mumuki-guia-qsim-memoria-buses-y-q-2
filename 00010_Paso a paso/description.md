@@ -1,4 +1,7 @@
 ## Ejecución de los programas
+
+Este [apunte](http://orga.blog.unq.edu.ar/wp-content/uploads/sites/5/2015/04/orga_apunte_registros_PC-IR.pdf) es una buena forma de repasar los temas de esta lección.
+
 Nunca está de más recordar el objetivo de nuestras computadoras, que es el de **ejecutar programas**. Dichos programas son una **secuencia de instrucciones** y por lo tanto cada instrucción debe ejecutarse en orden, recibiendo el mismo tratamiento, que hemos definido como se grafica en la siguiente imagen:
 
 <img width="100px" src="https://raw.githubusercontent.com/Orga-UNQ/mumuki-guia-qsim-memoria-buses-y-q-2/master/images/ciclo-simple.png"/>
